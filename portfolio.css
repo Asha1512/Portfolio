@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f7ff;
+    color: #4b5563;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(to right, #02AEFE, #023dbd);
+    padding:25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color:white;
+    font-size:18px;
+  }
+  .logo{
+    margin-right: auto;
+    margin-left: 40px;
+    font-weight: bold;
+  }
+  nav a{
+    color: #d9eafe;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: orange;
+  }
+  .home{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  }
+  .home-content{
+    max-width: 700px;
+    padding:50px;
+    margin-left: 40px;
+  }
+  h1{
+    font-size: 50px;
+    color: #023dbd;
+    margin-bottom: 35px;
+    text-shadow: #959393 2px 2px 4px;
+  }
+  p{
+    font-size: 21px;
+    line-height: 1.6;
+    color: #4b5563;
+    margin-bottom: 20px;
+  }
+ .btn {
+    all: unset;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: #02AEFE;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+  }
+.btn:hover {
+    background: #0284c7;
+  }
+  .home-image img {
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(250, 201, 110); 
+  }
+.about,.skills,.projects,.contact{
+    padding: 60px 80px;
+    margin-top: 40px;
+}
+h2{
+    font-size: 40px;
+    color: #023dbd;
+    margin-bottom: 60px;
+}
+h2::after {content: "";display: block;width: 60px;height: 4px;background-color: rgb(250, 201, 110);margin-top: 8px;border-radius: 2px;}
+.card{
+    background: #d9e8fc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.skills-container {display: flex;justify-content: space-between;gap: 20px;}
+.skill-card {
+    text-align: center;
+    flex: 1;
+    background-color: #d9e8fc;
+    padding: 25px 20px;
+    border-radius: 12px;
+    height:300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  
+ h3 {font-size: 25px;color: #023dbd;margin-bottom: 20px;}
+  
+ ul {list-style: none;font-size: 22px;color: orange;font-weight: 500;line-height:1.8;}
+  ul li {transition: transform 0.2s ease;}
+  ul li:hover {transform: scale(1.2);}
+  .projects-container {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .project-card {
+    background-color: #d9e8fc;
+    padding: 20px;
+    border-radius: 12px;
+    width: 460px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  .project-card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  } 
+  .contact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .contact-card {
+    background-color: #d9e8fc;
+    padding: 30px 25px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: left;
+  }
+  .contact-card h3 {font-size: 20px;margin-bottom: 15px;color: orange;}
+  .contact-card p {margin: 10px 0;font-size: 1rem; color: #2c2c2c;} 
+  .contact-card a {color: #023dbd;text-decoration: none;font-weight: 500;}
+  .contact-card i {margin-right: 8px;color: #02AEFE;}
+  .contact-form{
+    width:600px;
+    height:240px;
+    text-align:center;
+    background-color:#d9e8fc;
+    padding:15px;
+    margin-top:15px;
+    border-radius:12px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  footer {text-align: center;padding: 25px 20px;background-color: #6db3ec;color: #d9eafe;font-size: 0.95rem;}
+  .contact-form .form-row {display: flex;justify-content: space-between;gap: 10px;margin-bottom: 15px;}
+  .contact-form-input {width: 100%;padding: 10px;border: 1px solid #ccc;border-radius: 6px;font-size: 14px;box-sizing: border-box;}
